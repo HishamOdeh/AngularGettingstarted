@@ -1,0 +1,32 @@
+.star-big .fa-star {
+  font-size: 3rem; /* Increase the size of the stars */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; /* aligns items vertically in the center */
+}
+
+.col-md-6 {
+  margin: 0; /* Remove margin */
+}
+
+.img-fluid {
+  max-width: 100%;
+  margin-right: 200px; /* Add some space between the image and text */
+}
+
+.detail-field {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
